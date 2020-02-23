@@ -1,2 +1,2 @@
-# python_basic_usage
->记录一些常用的python小程序
+# python_language_learning
+python的一些小程序，用于练习python语言

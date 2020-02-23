@@ -35,7 +35,7 @@ class myclass:
     b=2
     def f(self):
         return 'hello world'
-    def __init__(self, realpart=6, imagpart=7):
+    def __init__(self, realpart=a, imagpart=b):
         self.a=realpart
         self.b=imagpart
 if __name__ == '__main__':
@@ -48,14 +48,14 @@ if __name__ == '__main__':
     c=k.doc
     huanying=k.f()
     print(huanying)
-    print ((a,b))
+    print (a,b)
     print(c)
     print(k.a)
-    print(k1.b)
+    print(k1.a)
 
 
 
-'''
+
 #测试函数
 def add(a,b):
     return a+b
@@ -64,4 +64,3 @@ def sub(a,b):
 if __name__ == '__main__':
     print("hello")
     print sub(5,4)
-'''
